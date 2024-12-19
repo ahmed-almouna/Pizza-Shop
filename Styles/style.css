@@ -1,0 +1,92 @@
+﻿body {
+    background-image: url('../Images/pizzaBackground.png');
+    display: flex;
+    justify-content: center;
+}
+
+/* the main pizza ordering area on screen */
+.orderingBox {
+    height: 680px;
+    width: 800px;
+    margin: 30px;
+    border: 10px solid grey;
+    padding: 10px 50px 10px 50px;
+    background-color: lightgrey;
+    box-shadow: 0px 0px 50px 0px #4f4949;
+    position: relative;
+}
+
+/* SET header */
+.heading {
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+    font-family: "Mondial Plus", sans-serif;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    margin-bottom: 60px;
+}
+
+.inputArea {
+    color:#a44519; 
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+}
+
+.invalidInput {
+    font-family: Cambria, Arial, sans-serif;
+    color: #FC3333;
+}
+
+.costArea {
+    clear: both;
+    margin-top: 140px;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+}
+
+.submitButton, .confirmButton, .cancelButton {
+    position: absolute;
+    bottom: 5%; 
+    left: 45%; 
+    height: 27px;
+    width: 85px;
+    background-color: snow;
+}
+
+.submitButton:hover, .cancelButton:hover, .confirmButton:hover {
+    background-color: #dfbd8d;
+    border-color: #000000;
+    cursor: pointer;
+}
+
+.confirmButton {
+    left: 40%; 
+}
+.cancelButton {
+    left: 52%; 
+}
+
+.toppingsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.toppingItems {
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    color:#201e1e; 
+    float: left;
+    margin: 5px 15px;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+
+input[type="checkbox"]:hover {
+    cursor: pointer;
+}
