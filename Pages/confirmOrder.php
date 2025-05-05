@@ -1,7 +1,7 @@
 <?php session_start(); ?>
 <!--
     File     : confirmOrder.php
-    Project  : PROG2001 - Final Project
+    Project  : Pizza Shop
     P        : Ahmed Almoune
     Date     : 12/7/2024
     Summary  :
@@ -46,9 +46,9 @@
         ?>
 
         <div class="orderingBox">
-            <!-- SET header -->
+            <!-- header -->
             <div>
-                <h1 class="heading" id="header">SET Pizza Shop</h1>
+                <h1 class="heading" id="header">Pizza Shop</h1>
             </div>
 
             <form id="orderConfirmForm" method="post" action="thankYou.php">

@@ -1,10 +1,10 @@
 /*
     File     : script.js
-    Project  : PROG2001 - Final Project
+    Project  : Pizza Shop
     P        : Ahmed Almoune
     Date     : 12/7/2024
     Summary  :
-        This is the JavaScript file containing all of the clien-side code thats's needed for the SET Pizza Shop.
+        This is the JavaScript file containing all of the clien-side code thats's needed for the Pizza Shop.
 */
 
 //-----------------------------------------------------------------------------------------------------------------------------------global
@@ -21,7 +21,7 @@ window.addEventListener('load', addEventListeners); //ensure the page is fully l
 */
 function addEventListeners() 
 {
-    if (document.title === "SET Pizza Shop") //page 1
+    if (document.title === "Pizza Shop") //page 1
     {
         customerDetailsForm.addEventListener('submit', validateCustomerDetailsForm);
     }

@@ -2,7 +2,7 @@
 <?php 
     /*
         File     : calculatePrice.php
-        Project  : PROG2001 - Final Project
+        Project  : Pizza Shop
         P        : Ahmed Almoune
         Date     : 12/8/2024
         Summary  :
