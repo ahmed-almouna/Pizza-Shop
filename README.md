@@ -1,6 +1,6 @@
 # Pizza-Shop
 
-A simple web app for ordering pizza. Developed using vanilla JS for the front-end and PHP for the back-end.
+A simple web app for ordering pizza. Developed using vanilla JS for the front-end and PHP for the back-end. 
 
 ## Features:
 - Seamless ordering process.
